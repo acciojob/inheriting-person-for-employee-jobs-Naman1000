@@ -13,7 +13,7 @@ class Person{
 
 
 class Employee extends Person{
-	constuctor(name,age,jobTitle){
+	constructor(name,age,jobTitle){
 		super(name,age);
 		this.jobTitle=jobTitle;
 	}
